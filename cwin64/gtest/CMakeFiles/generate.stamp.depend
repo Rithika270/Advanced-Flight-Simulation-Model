@@ -1,0 +1,11 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.30/Modules/CheckSymbolExists.cmake
+C:/repos/repo_distro/aburn/usr/include/cmake/AftrBurnerEngine.cmake
+C:/repos/repo_distro/aburn/usr/include/cmake/aftr_include_and_link_deps_for_usrModule_exe.cmake
+C:/repos/repo_distro/aburn/usr/include/cmake/aftr_module_load_GTest.cmake
+C:/repos/repo_distro/aburn/usr/include/cmake/aftr_set_compiler_settings.cmake
+C:/repos/repo_distro/aburn/usr/modules/NewModule/src/gtest/CMakeLists.txt
+C:/repos/repo_distro/libs/eigen-3.4.0/share/eigen3/cmake/Eigen3Config.cmake
+C:/repos/repo_distro/libs/eigen-3.4.0/share/eigen3/cmake/Eigen3ConfigVersion.cmake
+C:/repos/repo_distro/libs/fmt-9.0.0/lib/cmake/fmt/fmt-config-version.cmake
+C:/repos/repo_distro/libs/fmt-9.0.0/lib/cmake/fmt/fmt-config.cmake

@@ -1,0 +1,10 @@
+^C:\REPOS\REPO_DISTRO\ABURN\USR\MODULES\NEWMODULE\CWIN64\CMAKEFILES\E5A07377698F78029503F52C4BA29D79\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/repos/repo_distro/aburn/usr/modules/NewModule/src -BC:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/Assignment6.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
