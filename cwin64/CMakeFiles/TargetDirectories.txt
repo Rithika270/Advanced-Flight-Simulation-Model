@@ -1,0 +1,7 @@
+C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/Assignment6.dir
+C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/RUN_TESTS.dir
+C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/ALL_BUILD.dir
+C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/ZERO_CHECK.dir
+C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/gtest/CMakeFiles/GTest_lib.dir
+C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/gtest/CMakeFiles/GTest.dir
+C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/gtest/CMakeFiles/RUN_TESTS.dir

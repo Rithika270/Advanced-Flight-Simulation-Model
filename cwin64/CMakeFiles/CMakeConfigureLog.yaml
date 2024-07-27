@@ -1,0 +1,1523 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:5 (PROJECT)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (PROJECT)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.11.2+c078802d4 for .NET Framework
+      Build started 7/19/2024 7:18:52 PM.
+      
+      Project "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\3.30.0\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.41.34021\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.41.34021\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\3.30.0\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.41.34021\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\3.30.0\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.53
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/3.30.0/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (PROJECT)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.11.2+c078802d4 for .NET Framework
+      Build started 7/19/2024 7:18:52 PM.
+      
+      Project "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\3.30.0\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.41.34021\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.41.34021\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\3.30.0\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.41.34021\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\3.30.0\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.48
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/3.30.0/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (PROJECT)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-ugmbpg"
+      binary: "C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-ugmbpg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-ugmbpg'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8206d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.2+c078802d4 for .NET Framework
+        Build started 7/19/2024 7:18:53 PM.
+        
+        Project "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-ugmbpg\\cmTC_8206d.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_8206d.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-ugmbpg\\Debug\\".
+          Creating directory "cmTC_8206d.dir\\Debug\\cmTC_8206d.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_8206d.dir\\Debug\\cmTC_8206d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_8206d.dir\\Debug\\cmTC_8206d.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.41.34021\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8206d.dir\\Debug\\\\" /Fd"cmTC_8206d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34021 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8206d.dir\\Debug\\\\" /Fd"cmTC_8206d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.41.34021\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-ugmbpg\\Debug\\cmTC_8206d.exe" /INCREMENTAL /ILK:"cmTC_8206d.dir\\Debug\\cmTC_8206d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-ugmbpg/Debug/cmTC_8206d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-ugmbpg/Debug/cmTC_8206d.lib" /MACHINE:X64  /machine:x64 cmTC_8206d.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_8206d.vcxproj -> C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-ugmbpg\\Debug\\cmTC_8206d.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_8206d.dir\\Debug\\cmTC_8206d.tlog\\unsuccessfulbuild".
+          Touching "cmTC_8206d.dir\\Debug\\cmTC_8206d.tlog\\cmTC_8206d.lastbuildstate".
+        Done Building Project "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-ugmbpg\\cmTC_8206d.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.45
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (PROJECT)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/Tools/MSVC/14.41.34021/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (PROJECT)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/Tools/MSVC/14.41.34021/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.41.34021.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (PROJECT)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-1zig7w"
+      binary: "C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-1zig7w"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-1zig7w'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e3a62.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.2+c078802d4 for .NET Framework
+        Build started 7/19/2024 7:18:53 PM.
+        
+        Project "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-1zig7w\\cmTC_e3a62.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_e3a62.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-1zig7w\\Debug\\".
+          Creating directory "cmTC_e3a62.dir\\Debug\\cmTC_e3a62.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_e3a62.dir\\Debug\\cmTC_e3a62.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_e3a62.dir\\Debug\\cmTC_e3a62.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.41.34021\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e3a62.dir\\Debug\\\\" /Fd"cmTC_e3a62.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34021 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e3a62.dir\\Debug\\\\" /Fd"cmTC_e3a62.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.41.34021\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-1zig7w\\Debug\\cmTC_e3a62.exe" /INCREMENTAL /ILK:"cmTC_e3a62.dir\\Debug\\cmTC_e3a62.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-1zig7w/Debug/cmTC_e3a62.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-1zig7w/Debug/cmTC_e3a62.lib" /MACHINE:X64  /machine:x64 cmTC_e3a62.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_e3a62.vcxproj -> C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-1zig7w\\Debug\\cmTC_e3a62.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_e3a62.dir\\Debug\\cmTC_e3a62.tlog\\unsuccessfulbuild".
+          Touching "cmTC_e3a62.dir\\Debug\\cmTC_e3a62.tlog\\cmTC_e3a62.lastbuildstate".
+        Done Building Project "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-1zig7w\\cmTC_e3a62.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.48
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (PROJECT)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/Tools/MSVC/14.41.34021/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (PROJECT)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Preview/VC/Tools/MSVC/14.41.34021/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.41.34021.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckSymbolExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftr_cmake_utils.cmake:121 (CHECK_SYMBOL_EXISTS)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftrModuleCommonProjectIncludesAndLibs.cmake:21 (query_AftrConfig_h_for_PREPROCESSOR_DIRECTIVES_and_populate_corresponding_cmake_vars)"
+      - "CMakeLists.txt:27 (include)"
+    checks:
+      - "Looking for AFTR_CONFIG_USE_FREE_TYPE"
+    directories:
+      source: "C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-h9dawk"
+      binary: "C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-h9dawk"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/repos/repo_distro/aburn/usr/modules/src/cmake;C:/repos/repo_distro/aburn/usr/include/cmake"
+    buildResult:
+      variable: "AFTR_CONFIG_USE_FREE_TYPE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-h9dawk'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f1f0e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.2+c078802d4 for .NET Framework
+        Build started 7/19/2024 7:18:54 PM.
+        
+        Project "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-h9dawk\\cmTC_f1f0e.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_f1f0e.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-h9dawk\\Debug\\".
+          Creating directory "cmTC_f1f0e.dir\\Debug\\cmTC_f1f0e.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_f1f0e.dir\\Debug\\cmTC_f1f0e.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_f1f0e.dir\\Debug\\cmTC_f1f0e.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.41.34021\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f1f0e.dir\\Debug\\\\" /Fd"cmTC_f1f0e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-h9dawk\\CheckSymbolExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34021 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f1f0e.dir\\Debug\\\\" /Fd"cmTC_f1f0e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-h9dawk\\CheckSymbolExists.c"
+          CheckSymbolExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.41.34021\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-h9dawk\\Debug\\cmTC_f1f0e.exe" /INCREMENTAL /ILK:"cmTC_f1f0e.dir\\Debug\\cmTC_f1f0e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-h9dawk/Debug/cmTC_f1f0e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-h9dawk/Debug/cmTC_f1f0e.lib" /MACHINE:X64  /machine:x64 cmTC_f1f0e.dir\\Debug\\CheckSymbolExists.obj
+          cmTC_f1f0e.vcxproj -> C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-h9dawk\\Debug\\cmTC_f1f0e.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_f1f0e.dir\\Debug\\cmTC_f1f0e.tlog\\unsuccessfulbuild".
+          Touching "cmTC_f1f0e.dir\\Debug\\cmTC_f1f0e.tlog\\cmTC_f1f0e.lastbuildstate".
+        Done Building Project "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-h9dawk\\cmTC_f1f0e.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.44
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckSymbolExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftr_cmake_utils.cmake:124 (CHECK_SYMBOL_EXISTS)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftrModuleCommonProjectIncludesAndLibs.cmake:21 (query_AftrConfig_h_for_PREPROCESSOR_DIRECTIVES_and_populate_corresponding_cmake_vars)"
+      - "CMakeLists.txt:27 (include)"
+    checks:
+      - "Looking for AFTR_CONFIG_USE_FREE_TYPE_GL_FONTS"
+    directories:
+      source: "C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-pyx41e"
+      binary: "C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-pyx41e"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/repos/repo_distro/aburn/usr/modules/src/cmake;C:/repos/repo_distro/aburn/usr/include/cmake"
+    buildResult:
+      variable: "AFTR_CONFIG_USE_FREE_TYPE_GL_FONTS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-pyx41e'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_be92e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.2+c078802d4 for .NET Framework
+        Build started 7/19/2024 7:18:55 PM.
+        
+        Project "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-pyx41e\\cmTC_be92e.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_be92e.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-pyx41e\\Debug\\".
+          Creating directory "cmTC_be92e.dir\\Debug\\cmTC_be92e.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_be92e.dir\\Debug\\cmTC_be92e.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_be92e.dir\\Debug\\cmTC_be92e.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.41.34021\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_be92e.dir\\Debug\\\\" /Fd"cmTC_be92e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-pyx41e\\CheckSymbolExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34021 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_be92e.dir\\Debug\\\\" /Fd"cmTC_be92e.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-pyx41e\\CheckSymbolExists.c"
+          CheckSymbolExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.41.34021\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-pyx41e\\Debug\\cmTC_be92e.exe" /INCREMENTAL /ILK:"cmTC_be92e.dir\\Debug\\cmTC_be92e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-pyx41e/Debug/cmTC_be92e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-pyx41e/Debug/cmTC_be92e.lib" /MACHINE:X64  /machine:x64 cmTC_be92e.dir\\Debug\\CheckSymbolExists.obj
+          cmTC_be92e.vcxproj -> C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-pyx41e\\Debug\\cmTC_be92e.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_be92e.dir\\Debug\\cmTC_be92e.tlog\\unsuccessfulbuild".
+          Touching "cmTC_be92e.dir\\Debug\\cmTC_be92e.tlog\\cmTC_be92e.lastbuildstate".
+        Done Building Project "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-pyx41e\\cmTC_be92e.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.45
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckSymbolExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftr_cmake_utils.cmake:127 (CHECK_SYMBOL_EXISTS)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftrModuleCommonProjectIncludesAndLibs.cmake:21 (query_AftrConfig_h_for_PREPROCESSOR_DIRECTIVES_and_populate_corresponding_cmake_vars)"
+      - "CMakeLists.txt:27 (include)"
+    checks:
+      - "Looking for AFTR_CONFIG_USE_FONTS"
+    directories:
+      source: "C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-k4cvxe"
+      binary: "C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-k4cvxe"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/repos/repo_distro/aburn/usr/modules/src/cmake;C:/repos/repo_distro/aburn/usr/include/cmake"
+    buildResult:
+      variable: "AFTR_CONFIG_USE_FONTS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-k4cvxe'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b9706.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.2+c078802d4 for .NET Framework
+        Build started 7/19/2024 7:18:55 PM.
+        
+        Project "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-k4cvxe\\cmTC_b9706.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_b9706.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-k4cvxe\\Debug\\".
+          Creating directory "cmTC_b9706.dir\\Debug\\cmTC_b9706.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_b9706.dir\\Debug\\cmTC_b9706.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_b9706.dir\\Debug\\cmTC_b9706.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.41.34021\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b9706.dir\\Debug\\\\" /Fd"cmTC_b9706.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-k4cvxe\\CheckSymbolExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34021 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b9706.dir\\Debug\\\\" /Fd"cmTC_b9706.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-k4cvxe\\CheckSymbolExists.c"
+          CheckSymbolExists.c
+        C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-k4cvxe\\CheckSymbolExists.c(8,19): error C2065: 'AFTR_CONFIG_USE_FONTS': undeclared identifier [C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-k4cvxe\\cmTC_b9706.vcxproj]
+        Done Building Project "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-k4cvxe\\cmTC_b9706.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-k4cvxe\\cmTC_b9706.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-k4cvxe\\CheckSymbolExists.c(8,19): error C2065: 'AFTR_CONFIG_USE_FONTS': undeclared identifier [C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-k4cvxe\\cmTC_b9706.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.29
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckSymbolExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftr_cmake_utils.cmake:130 (CHECK_SYMBOL_EXISTS)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftrModuleCommonProjectIncludesAndLibs.cmake:21 (query_AftrConfig_h_for_PREPROCESSOR_DIRECTIVES_and_populate_corresponding_cmake_vars)"
+      - "CMakeLists.txt:27 (include)"
+    checks:
+      - "Looking for AFTR_CONFIG_USE_OCULUS_RIFT_OVR"
+    directories:
+      source: "C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-oms9xh"
+      binary: "C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-oms9xh"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/repos/repo_distro/aburn/usr/modules/src/cmake;C:/repos/repo_distro/aburn/usr/include/cmake"
+    buildResult:
+      variable: "AFTR_CONFIG_USE_OCULUS_RIFT_OVR"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-oms9xh'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_40544.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.2+c078802d4 for .NET Framework
+        Build started 7/19/2024 7:18:56 PM.
+        
+        Project "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-oms9xh\\cmTC_40544.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_40544.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-oms9xh\\Debug\\".
+          Creating directory "cmTC_40544.dir\\Debug\\cmTC_40544.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_40544.dir\\Debug\\cmTC_40544.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_40544.dir\\Debug\\cmTC_40544.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.41.34021\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_40544.dir\\Debug\\\\" /Fd"cmTC_40544.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-oms9xh\\CheckSymbolExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34021 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_40544.dir\\Debug\\\\" /Fd"cmTC_40544.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-oms9xh\\CheckSymbolExists.c"
+          CheckSymbolExists.c
+        C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-oms9xh\\CheckSymbolExists.c(8,19): error C2065: 'AFTR_CONFIG_USE_OCULUS_RIFT_OVR': undeclared identifier [C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-oms9xh\\cmTC_40544.vcxproj]
+        Done Building Project "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-oms9xh\\cmTC_40544.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-oms9xh\\cmTC_40544.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-oms9xh\\CheckSymbolExists.c(8,19): error C2065: 'AFTR_CONFIG_USE_OCULUS_RIFT_OVR': undeclared identifier [C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-oms9xh\\cmTC_40544.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.25
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckSymbolExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftr_cmake_utils.cmake:133 (CHECK_SYMBOL_EXISTS)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftrModuleCommonProjectIncludesAndLibs.cmake:21 (query_AftrConfig_h_for_PREPROCESSOR_DIRECTIVES_and_populate_corresponding_cmake_vars)"
+      - "CMakeLists.txt:27 (include)"
+    checks:
+      - "Looking for AFTR_CONFIG_USE_OCULUS_RIFT_DK2"
+    directories:
+      source: "C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-b4lpn5"
+      binary: "C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-b4lpn5"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/repos/repo_distro/aburn/usr/modules/src/cmake;C:/repos/repo_distro/aburn/usr/include/cmake"
+    buildResult:
+      variable: "AFTR_CONFIG_USE_OCULUS_RIFT_DK2"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-b4lpn5'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_72d34.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.2+c078802d4 for .NET Framework
+        Build started 7/19/2024 7:18:56 PM.
+        
+        Project "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-b4lpn5\\cmTC_72d34.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_72d34.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-b4lpn5\\Debug\\".
+          Creating directory "cmTC_72d34.dir\\Debug\\cmTC_72d34.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_72d34.dir\\Debug\\cmTC_72d34.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_72d34.dir\\Debug\\cmTC_72d34.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.41.34021\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_72d34.dir\\Debug\\\\" /Fd"cmTC_72d34.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-b4lpn5\\CheckSymbolExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34021 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_72d34.dir\\Debug\\\\" /Fd"cmTC_72d34.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-b4lpn5\\CheckSymbolExists.c"
+          CheckSymbolExists.c
+        C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-b4lpn5\\CheckSymbolExists.c(8,19): error C2065: 'AFTR_CONFIG_USE_OCULUS_RIFT_DK2': undeclared identifier [C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-b4lpn5\\cmTC_72d34.vcxproj]
+        Done Building Project "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-b4lpn5\\cmTC_72d34.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-b4lpn5\\cmTC_72d34.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-b4lpn5\\CheckSymbolExists.c(8,19): error C2065: 'AFTR_CONFIG_USE_OCULUS_RIFT_DK2': undeclared identifier [C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-b4lpn5\\cmTC_72d34.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.25
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckSymbolExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftr_cmake_utils.cmake:136 (CHECK_SYMBOL_EXISTS)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftrModuleCommonProjectIncludesAndLibs.cmake:21 (query_AftrConfig_h_for_PREPROCESSOR_DIRECTIVES_and_populate_corresponding_cmake_vars)"
+      - "CMakeLists.txt:27 (include)"
+    checks:
+      - "Looking for AFTR_CONFIG_USE_KEYLOK_DONGLE"
+    directories:
+      source: "C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-lrhbw5"
+      binary: "C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-lrhbw5"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/repos/repo_distro/aburn/usr/modules/src/cmake;C:/repos/repo_distro/aburn/usr/include/cmake"
+    buildResult:
+      variable: "AFTR_CONFIG_USE_KEYLOK_DONGLE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-lrhbw5'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_002fa.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.2+c078802d4 for .NET Framework
+        Build started 7/19/2024 7:18:56 PM.
+        
+        Project "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-lrhbw5\\cmTC_002fa.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_002fa.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-lrhbw5\\Debug\\".
+          Creating directory "cmTC_002fa.dir\\Debug\\cmTC_002fa.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_002fa.dir\\Debug\\cmTC_002fa.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_002fa.dir\\Debug\\cmTC_002fa.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.41.34021\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_002fa.dir\\Debug\\\\" /Fd"cmTC_002fa.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-lrhbw5\\CheckSymbolExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34021 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_002fa.dir\\Debug\\\\" /Fd"cmTC_002fa.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-lrhbw5\\CheckSymbolExists.c"
+          CheckSymbolExists.c
+        C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-lrhbw5\\CheckSymbolExists.c(8,19): error C2065: 'AFTR_CONFIG_USE_KEYLOK_DONGLE': undeclared identifier [C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-lrhbw5\\cmTC_002fa.vcxproj]
+        Done Building Project "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-lrhbw5\\cmTC_002fa.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-lrhbw5\\cmTC_002fa.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-lrhbw5\\CheckSymbolExists.c(8,19): error C2065: 'AFTR_CONFIG_USE_KEYLOK_DONGLE': undeclared identifier [C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-lrhbw5\\cmTC_002fa.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.28
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckSymbolExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftr_cmake_utils.cmake:139 (CHECK_SYMBOL_EXISTS)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftrModuleCommonProjectIncludesAndLibs.cmake:21 (query_AftrConfig_h_for_PREPROCESSOR_DIRECTIVES_and_populate_corresponding_cmake_vars)"
+      - "CMakeLists.txt:27 (include)"
+    checks:
+      - "Looking for AFTR_CONFIG_USE_GDAL"
+    directories:
+      source: "C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-2s6f7n"
+      binary: "C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-2s6f7n"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/repos/repo_distro/aburn/usr/modules/src/cmake;C:/repos/repo_distro/aburn/usr/include/cmake"
+    buildResult:
+      variable: "AFTR_CONFIG_USE_GDAL"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-2s6f7n'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ab7e0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.2+c078802d4 for .NET Framework
+        Build started 7/19/2024 7:18:57 PM.
+        
+        Project "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-2s6f7n\\cmTC_ab7e0.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_ab7e0.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-2s6f7n\\Debug\\".
+          Creating directory "cmTC_ab7e0.dir\\Debug\\cmTC_ab7e0.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_ab7e0.dir\\Debug\\cmTC_ab7e0.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_ab7e0.dir\\Debug\\cmTC_ab7e0.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.41.34021\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ab7e0.dir\\Debug\\\\" /Fd"cmTC_ab7e0.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-2s6f7n\\CheckSymbolExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34021 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ab7e0.dir\\Debug\\\\" /Fd"cmTC_ab7e0.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-2s6f7n\\CheckSymbolExists.c"
+          CheckSymbolExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.41.34021\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-2s6f7n\\Debug\\cmTC_ab7e0.exe" /INCREMENTAL /ILK:"cmTC_ab7e0.dir\\Debug\\cmTC_ab7e0.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-2s6f7n/Debug/cmTC_ab7e0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-2s6f7n/Debug/cmTC_ab7e0.lib" /MACHINE:X64  /machine:x64 cmTC_ab7e0.dir\\Debug\\CheckSymbolExists.obj
+          cmTC_ab7e0.vcxproj -> C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-2s6f7n\\Debug\\cmTC_ab7e0.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_ab7e0.dir\\Debug\\cmTC_ab7e0.tlog\\unsuccessfulbuild".
+          Touching "cmTC_ab7e0.dir\\Debug\\cmTC_ab7e0.tlog\\cmTC_ab7e0.lastbuildstate".
+        Done Building Project "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-2s6f7n\\cmTC_ab7e0.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.44
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckSymbolExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftr_cmake_utils.cmake:142 (CHECK_SYMBOL_EXISTS)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftrModuleCommonProjectIncludesAndLibs.cmake:21 (query_AftrConfig_h_for_PREPROCESSOR_DIRECTIVES_and_populate_corresponding_cmake_vars)"
+      - "CMakeLists.txt:27 (include)"
+    checks:
+      - "Looking for AFTR_CONFIG_USE_ASSIMP"
+    directories:
+      source: "C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-dstbq2"
+      binary: "C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-dstbq2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/repos/repo_distro/aburn/usr/modules/src/cmake;C:/repos/repo_distro/aburn/usr/include/cmake"
+    buildResult:
+      variable: "AFTR_CONFIG_USE_ASSIMP"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-dstbq2'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_26f10.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.2+c078802d4 for .NET Framework
+        Build started 7/19/2024 7:18:57 PM.
+        
+        Project "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-dstbq2\\cmTC_26f10.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_26f10.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-dstbq2\\Debug\\".
+          Creating directory "cmTC_26f10.dir\\Debug\\cmTC_26f10.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_26f10.dir\\Debug\\cmTC_26f10.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_26f10.dir\\Debug\\cmTC_26f10.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.41.34021\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_26f10.dir\\Debug\\\\" /Fd"cmTC_26f10.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-dstbq2\\CheckSymbolExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34021 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_26f10.dir\\Debug\\\\" /Fd"cmTC_26f10.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-dstbq2\\CheckSymbolExists.c"
+          CheckSymbolExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.41.34021\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-dstbq2\\Debug\\cmTC_26f10.exe" /INCREMENTAL /ILK:"cmTC_26f10.dir\\Debug\\cmTC_26f10.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-dstbq2/Debug/cmTC_26f10.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-dstbq2/Debug/cmTC_26f10.lib" /MACHINE:X64  /machine:x64 cmTC_26f10.dir\\Debug\\CheckSymbolExists.obj
+          cmTC_26f10.vcxproj -> C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-dstbq2\\Debug\\cmTC_26f10.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_26f10.dir\\Debug\\cmTC_26f10.tlog\\unsuccessfulbuild".
+          Touching "cmTC_26f10.dir\\Debug\\cmTC_26f10.tlog\\cmTC_26f10.lastbuildstate".
+        Done Building Project "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-dstbq2\\cmTC_26f10.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.47
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckSymbolExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftr_cmake_utils.cmake:145 (CHECK_SYMBOL_EXISTS)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftrModuleCommonProjectIncludesAndLibs.cmake:21 (query_AftrConfig_h_for_PREPROCESSOR_DIRECTIVES_and_populate_corresponding_cmake_vars)"
+      - "CMakeLists.txt:27 (include)"
+    checks:
+      - "Looking for AFTR_CONFIG_USE_3DS"
+    directories:
+      source: "C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-3wi5jg"
+      binary: "C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-3wi5jg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/repos/repo_distro/aburn/usr/modules/src/cmake;C:/repos/repo_distro/aburn/usr/include/cmake"
+    buildResult:
+      variable: "AFTR_CONFIG_USE_3DS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-3wi5jg'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b2b50.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.2+c078802d4 for .NET Framework
+        Build started 7/19/2024 7:18:58 PM.
+        
+        Project "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-3wi5jg\\cmTC_b2b50.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_b2b50.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-3wi5jg\\Debug\\".
+          Creating directory "cmTC_b2b50.dir\\Debug\\cmTC_b2b50.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_b2b50.dir\\Debug\\cmTC_b2b50.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_b2b50.dir\\Debug\\cmTC_b2b50.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.41.34021\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b2b50.dir\\Debug\\\\" /Fd"cmTC_b2b50.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-3wi5jg\\CheckSymbolExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34021 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b2b50.dir\\Debug\\\\" /Fd"cmTC_b2b50.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-3wi5jg\\CheckSymbolExists.c"
+          CheckSymbolExists.c
+        C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-3wi5jg\\CheckSymbolExists.c(8,19): error C2065: 'AFTR_CONFIG_USE_3DS': undeclared identifier [C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-3wi5jg\\cmTC_b2b50.vcxproj]
+        Done Building Project "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-3wi5jg\\cmTC_b2b50.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-3wi5jg\\cmTC_b2b50.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-3wi5jg\\CheckSymbolExists.c(8,19): error C2065: 'AFTR_CONFIG_USE_3DS': undeclared identifier [C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-3wi5jg\\cmTC_b2b50.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.25
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckSymbolExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftr_cmake_utils.cmake:148 (CHECK_SYMBOL_EXISTS)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftrModuleCommonProjectIncludesAndLibs.cmake:21 (query_AftrConfig_h_for_PREPROCESSOR_DIRECTIVES_and_populate_corresponding_cmake_vars)"
+      - "CMakeLists.txt:27 (include)"
+    checks:
+      - "Looking for AFTR_CONFIG_USE_IMGUI"
+    directories:
+      source: "C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-37cumf"
+      binary: "C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-37cumf"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/repos/repo_distro/aburn/usr/modules/src/cmake;C:/repos/repo_distro/aburn/usr/include/cmake"
+    buildResult:
+      variable: "AFTR_CONFIG_USE_IMGUI"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-37cumf'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_59d22.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.2+c078802d4 for .NET Framework
+        Build started 7/19/2024 7:18:58 PM.
+        
+        Project "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-37cumf\\cmTC_59d22.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_59d22.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-37cumf\\Debug\\".
+          Creating directory "cmTC_59d22.dir\\Debug\\cmTC_59d22.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_59d22.dir\\Debug\\cmTC_59d22.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_59d22.dir\\Debug\\cmTC_59d22.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.41.34021\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_59d22.dir\\Debug\\\\" /Fd"cmTC_59d22.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-37cumf\\CheckSymbolExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34021 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_59d22.dir\\Debug\\\\" /Fd"cmTC_59d22.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-37cumf\\CheckSymbolExists.c"
+          CheckSymbolExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.41.34021\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-37cumf\\Debug\\cmTC_59d22.exe" /INCREMENTAL /ILK:"cmTC_59d22.dir\\Debug\\cmTC_59d22.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-37cumf/Debug/cmTC_59d22.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-37cumf/Debug/cmTC_59d22.lib" /MACHINE:X64  /machine:x64 cmTC_59d22.dir\\Debug\\CheckSymbolExists.obj
+          cmTC_59d22.vcxproj -> C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-37cumf\\Debug\\cmTC_59d22.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_59d22.dir\\Debug\\cmTC_59d22.tlog\\unsuccessfulbuild".
+          Touching "cmTC_59d22.dir\\Debug\\cmTC_59d22.tlog\\cmTC_59d22.lastbuildstate".
+        Done Building Project "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-37cumf\\cmTC_59d22.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.44
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckSymbolExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftr_cmake_utils.cmake:151 (CHECK_SYMBOL_EXISTS)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftrModuleCommonProjectIncludesAndLibs.cmake:21 (query_AftrConfig_h_for_PREPROCESSOR_DIRECTIVES_and_populate_corresponding_cmake_vars)"
+      - "CMakeLists.txt:27 (include)"
+    checks:
+      - "Looking for AFTR_CONFIG_USE_OGL_GLEW"
+    directories:
+      source: "C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-uqb3y7"
+      binary: "C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-uqb3y7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/repos/repo_distro/aburn/usr/modules/src/cmake;C:/repos/repo_distro/aburn/usr/include/cmake"
+    buildResult:
+      variable: "AFTR_CONFIG_USE_OGL_GLEW"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-uqb3y7'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f71c6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.2+c078802d4 for .NET Framework
+        Build started 7/19/2024 7:18:59 PM.
+        
+        Project "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-uqb3y7\\cmTC_f71c6.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_f71c6.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-uqb3y7\\Debug\\".
+          Creating directory "cmTC_f71c6.dir\\Debug\\cmTC_f71c6.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_f71c6.dir\\Debug\\cmTC_f71c6.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_f71c6.dir\\Debug\\cmTC_f71c6.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.41.34021\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f71c6.dir\\Debug\\\\" /Fd"cmTC_f71c6.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-uqb3y7\\CheckSymbolExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34021 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f71c6.dir\\Debug\\\\" /Fd"cmTC_f71c6.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-uqb3y7\\CheckSymbolExists.c"
+          CheckSymbolExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.41.34021\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-uqb3y7\\Debug\\cmTC_f71c6.exe" /INCREMENTAL /ILK:"cmTC_f71c6.dir\\Debug\\cmTC_f71c6.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-uqb3y7/Debug/cmTC_f71c6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-uqb3y7/Debug/cmTC_f71c6.lib" /MACHINE:X64  /machine:x64 cmTC_f71c6.dir\\Debug\\CheckSymbolExists.obj
+          cmTC_f71c6.vcxproj -> C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-uqb3y7\\Debug\\cmTC_f71c6.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_f71c6.dir\\Debug\\cmTC_f71c6.tlog\\unsuccessfulbuild".
+          Touching "cmTC_f71c6.dir\\Debug\\cmTC_f71c6.tlog\\cmTC_f71c6.lastbuildstate".
+        Done Building Project "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-uqb3y7\\cmTC_f71c6.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.43
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckSymbolExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftr_cmake_utils.cmake:154 (CHECK_SYMBOL_EXISTS)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftrModuleCommonProjectIncludesAndLibs.cmake:21 (query_AftrConfig_h_for_PREPROCESSOR_DIRECTIVES_and_populate_corresponding_cmake_vars)"
+      - "CMakeLists.txt:27 (include)"
+    checks:
+      - "Looking for AFTR_CONFIG_USE_FMT_LIB"
+    directories:
+      source: "C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-83p73l"
+      binary: "C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-83p73l"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/repos/repo_distro/aburn/usr/modules/src/cmake;C:/repos/repo_distro/aburn/usr/include/cmake"
+    buildResult:
+      variable: "AFTR_CONFIG_USE_FMT_LIB"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-83p73l'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_05191.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.2+c078802d4 for .NET Framework
+        Build started 7/19/2024 7:18:59 PM.
+        
+        Project "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-83p73l\\cmTC_05191.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_05191.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-83p73l\\Debug\\".
+          Creating directory "cmTC_05191.dir\\Debug\\cmTC_05191.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_05191.dir\\Debug\\cmTC_05191.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_05191.dir\\Debug\\cmTC_05191.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.41.34021\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_05191.dir\\Debug\\\\" /Fd"cmTC_05191.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-83p73l\\CheckSymbolExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34021 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_05191.dir\\Debug\\\\" /Fd"cmTC_05191.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-83p73l\\CheckSymbolExists.c"
+          CheckSymbolExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.41.34021\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-83p73l\\Debug\\cmTC_05191.exe" /INCREMENTAL /ILK:"cmTC_05191.dir\\Debug\\cmTC_05191.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-83p73l/Debug/cmTC_05191.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-83p73l/Debug/cmTC_05191.lib" /MACHINE:X64  /machine:x64 cmTC_05191.dir\\Debug\\CheckSymbolExists.obj
+          cmTC_05191.vcxproj -> C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-83p73l\\Debug\\cmTC_05191.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_05191.dir\\Debug\\cmTC_05191.tlog\\unsuccessfulbuild".
+          Touching "cmTC_05191.dir\\Debug\\cmTC_05191.tlog\\cmTC_05191.lastbuildstate".
+        Done Building Project "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-83p73l\\cmTC_05191.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.45
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckSymbolExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftr_cmake_utils.cmake:157 (CHECK_SYMBOL_EXISTS)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftrModuleCommonProjectIncludesAndLibs.cmake:21 (query_AftrConfig_h_for_PREPROCESSOR_DIRECTIVES_and_populate_corresponding_cmake_vars)"
+      - "CMakeLists.txt:27 (include)"
+    checks:
+      - "Looking for AFTR_CONFIG_USE_RANGE_V3_LIB"
+    directories:
+      source: "C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-3sbbej"
+      binary: "C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-3sbbej"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/repos/repo_distro/aburn/usr/modules/src/cmake;C:/repos/repo_distro/aburn/usr/include/cmake"
+    buildResult:
+      variable: "AFTR_CONFIG_USE_RANGE_V3_LIB"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-3sbbej'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b6cf2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.2+c078802d4 for .NET Framework
+        Build started 7/19/2024 7:19:00 PM.
+        
+        Project "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-3sbbej\\cmTC_b6cf2.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_b6cf2.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-3sbbej\\Debug\\".
+          Creating directory "cmTC_b6cf2.dir\\Debug\\cmTC_b6cf2.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_b6cf2.dir\\Debug\\cmTC_b6cf2.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_b6cf2.dir\\Debug\\cmTC_b6cf2.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.41.34021\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b6cf2.dir\\Debug\\\\" /Fd"cmTC_b6cf2.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-3sbbej\\CheckSymbolExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34021 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b6cf2.dir\\Debug\\\\" /Fd"cmTC_b6cf2.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-3sbbej\\CheckSymbolExists.c"
+          CheckSymbolExists.c
+        C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-3sbbej\\CheckSymbolExists.c(8,19): error C2065: 'AFTR_CONFIG_USE_RANGE_V3_LIB': undeclared identifier [C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-3sbbej\\cmTC_b6cf2.vcxproj]
+        Done Building Project "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-3sbbej\\cmTC_b6cf2.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-3sbbej\\cmTC_b6cf2.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-3sbbej\\CheckSymbolExists.c(8,19): error C2065: 'AFTR_CONFIG_USE_RANGE_V3_LIB': undeclared identifier [C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-3sbbej\\cmTC_b6cf2.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.26
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckSymbolExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftr_cmake_utils.cmake:160 (CHECK_SYMBOL_EXISTS)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftrModuleCommonProjectIncludesAndLibs.cmake:21 (query_AftrConfig_h_for_PREPROCESSOR_DIRECTIVES_and_populate_corresponding_cmake_vars)"
+      - "CMakeLists.txt:27 (include)"
+    checks:
+      - "Looking for AFTR_CONFIG_USE_EIGEN_V3"
+    directories:
+      source: "C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-2fqylz"
+      binary: "C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-2fqylz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/repos/repo_distro/aburn/usr/modules/src/cmake;C:/repos/repo_distro/aburn/usr/include/cmake"
+    buildResult:
+      variable: "AFTR_CONFIG_USE_EIGEN_V3"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-2fqylz'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a9513.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.2+c078802d4 for .NET Framework
+        Build started 7/19/2024 7:19:00 PM.
+        
+        Project "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-2fqylz\\cmTC_a9513.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_a9513.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-2fqylz\\Debug\\".
+          Creating directory "cmTC_a9513.dir\\Debug\\cmTC_a9513.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_a9513.dir\\Debug\\cmTC_a9513.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_a9513.dir\\Debug\\cmTC_a9513.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.41.34021\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a9513.dir\\Debug\\\\" /Fd"cmTC_a9513.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-2fqylz\\CheckSymbolExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34021 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a9513.dir\\Debug\\\\" /Fd"cmTC_a9513.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-2fqylz\\CheckSymbolExists.c"
+          CheckSymbolExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.41.34021\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-2fqylz\\Debug\\cmTC_a9513.exe" /INCREMENTAL /ILK:"cmTC_a9513.dir\\Debug\\cmTC_a9513.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-2fqylz/Debug/cmTC_a9513.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-2fqylz/Debug/cmTC_a9513.lib" /MACHINE:X64  /machine:x64 cmTC_a9513.dir\\Debug\\CheckSymbolExists.obj
+          cmTC_a9513.vcxproj -> C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-2fqylz\\Debug\\cmTC_a9513.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_a9513.dir\\Debug\\cmTC_a9513.tlog\\unsuccessfulbuild".
+          Touching "cmTC_a9513.dir\\Debug\\cmTC_a9513.tlog\\cmTC_a9513.lastbuildstate".
+        Done Building Project "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-2fqylz\\cmTC_a9513.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.43
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckSymbolExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftr_cmake_utils.cmake:163 (CHECK_SYMBOL_EXISTS)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftrModuleCommonProjectIncludesAndLibs.cmake:21 (query_AftrConfig_h_for_PREPROCESSOR_DIRECTIVES_and_populate_corresponding_cmake_vars)"
+      - "CMakeLists.txt:27 (include)"
+    checks:
+      - "Looking for AFTR_CONFIG_USE_GTEST_LIB"
+    directories:
+      source: "C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-687nqy"
+      binary: "C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-687nqy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/repos/repo_distro/aburn/usr/modules/src/cmake;C:/repos/repo_distro/aburn/usr/include/cmake"
+    buildResult:
+      variable: "AFTR_CONFIG_USE_GTEST_LIB"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-687nqy'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b7af3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.2+c078802d4 for .NET Framework
+        Build started 7/19/2024 7:19:01 PM.
+        
+        Project "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-687nqy\\cmTC_b7af3.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_b7af3.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-687nqy\\Debug\\".
+          Creating directory "cmTC_b7af3.dir\\Debug\\cmTC_b7af3.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_b7af3.dir\\Debug\\cmTC_b7af3.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_b7af3.dir\\Debug\\cmTC_b7af3.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.41.34021\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b7af3.dir\\Debug\\\\" /Fd"cmTC_b7af3.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-687nqy\\CheckSymbolExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34021 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b7af3.dir\\Debug\\\\" /Fd"cmTC_b7af3.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-687nqy\\CheckSymbolExists.c"
+          CheckSymbolExists.c
+        C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-687nqy\\CheckSymbolExists.c(8,19): error C2065: 'AFTR_CONFIG_USE_GTEST_LIB': undeclared identifier [C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-687nqy\\cmTC_b7af3.vcxproj]
+        Done Building Project "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-687nqy\\cmTC_b7af3.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-687nqy\\cmTC_b7af3.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-687nqy\\CheckSymbolExists.c(8,19): error C2065: 'AFTR_CONFIG_USE_GTEST_LIB': undeclared identifier [C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-687nqy\\cmTC_b7af3.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.26
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckSymbolExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftr_cmake_utils.cmake:166 (CHECK_SYMBOL_EXISTS)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftrModuleCommonProjectIncludesAndLibs.cmake:21 (query_AftrConfig_h_for_PREPROCESSOR_DIRECTIVES_and_populate_corresponding_cmake_vars)"
+      - "CMakeLists.txt:27 (include)"
+    checks:
+      - "Looking for AFTR_CONFIG_USE_CAL3D"
+    directories:
+      source: "C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-6bqt8z"
+      binary: "C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-6bqt8z"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/repos/repo_distro/aburn/usr/modules/src/cmake;C:/repos/repo_distro/aburn/usr/include/cmake"
+    buildResult:
+      variable: "AFTR_CONFIG_USE_CAL3D"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-6bqt8z'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_4f161.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.2+c078802d4 for .NET Framework
+        Build started 7/19/2024 7:19:01 PM.
+        
+        Project "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-6bqt8z\\cmTC_4f161.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_4f161.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-6bqt8z\\Debug\\".
+          Creating directory "cmTC_4f161.dir\\Debug\\cmTC_4f161.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_4f161.dir\\Debug\\cmTC_4f161.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_4f161.dir\\Debug\\cmTC_4f161.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.41.34021\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4f161.dir\\Debug\\\\" /Fd"cmTC_4f161.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-6bqt8z\\CheckSymbolExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34021 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4f161.dir\\Debug\\\\" /Fd"cmTC_4f161.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-6bqt8z\\CheckSymbolExists.c"
+          CheckSymbolExists.c
+        C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-6bqt8z\\CheckSymbolExists.c(8,19): error C2065: 'AFTR_CONFIG_USE_CAL3D': undeclared identifier [C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-6bqt8z\\cmTC_4f161.vcxproj]
+        Done Building Project "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-6bqt8z\\cmTC_4f161.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-6bqt8z\\cmTC_4f161.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-6bqt8z\\CheckSymbolExists.c(8,19): error C2065: 'AFTR_CONFIG_USE_CAL3D': undeclared identifier [C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-6bqt8z\\cmTC_4f161.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.25
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckSymbolExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftr_cmake_utils.cmake:169 (CHECK_SYMBOL_EXISTS)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftrModuleCommonProjectIncludesAndLibs.cmake:21 (query_AftrConfig_h_for_PREPROCESSOR_DIRECTIVES_and_populate_corresponding_cmake_vars)"
+      - "CMakeLists.txt:27 (include)"
+    checks:
+      - "Looking for AFTR_CONFIG_USE_ODE"
+    directories:
+      source: "C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-klcp9g"
+      binary: "C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-klcp9g"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/repos/repo_distro/aburn/usr/modules/src/cmake;C:/repos/repo_distro/aburn/usr/include/cmake"
+    buildResult:
+      variable: "AFTR_CONFIG_USE_ODE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-klcp9g'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_4c3f2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.2+c078802d4 for .NET Framework
+        Build started 7/19/2024 7:19:02 PM.
+        
+        Project "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-klcp9g\\cmTC_4c3f2.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_4c3f2.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-klcp9g\\Debug\\".
+          Creating directory "cmTC_4c3f2.dir\\Debug\\cmTC_4c3f2.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_4c3f2.dir\\Debug\\cmTC_4c3f2.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_4c3f2.dir\\Debug\\cmTC_4c3f2.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.41.34021\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4c3f2.dir\\Debug\\\\" /Fd"cmTC_4c3f2.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-klcp9g\\CheckSymbolExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34021 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4c3f2.dir\\Debug\\\\" /Fd"cmTC_4c3f2.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-klcp9g\\CheckSymbolExists.c"
+          CheckSymbolExists.c
+        C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-klcp9g\\CheckSymbolExists.c(8,19): error C2065: 'AFTR_CONFIG_USE_ODE': undeclared identifier [C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-klcp9g\\cmTC_4c3f2.vcxproj]
+        Done Building Project "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-klcp9g\\cmTC_4c3f2.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-klcp9g\\cmTC_4c3f2.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-klcp9g\\CheckSymbolExists.c(8,19): error C2065: 'AFTR_CONFIG_USE_ODE': undeclared identifier [C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-klcp9g\\cmTC_4c3f2.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.26
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckSymbolExists.cmake:154 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftr_cmake_utils.cmake:172 (CHECK_SYMBOL_EXISTS)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftrModuleCommonProjectIncludesAndLibs.cmake:21 (query_AftrConfig_h_for_PREPROCESSOR_DIRECTIVES_and_populate_corresponding_cmake_vars)"
+      - "CMakeLists.txt:27 (include)"
+    checks:
+      - "Looking for AFTR_CONFIG_USE_BOOST"
+    directories:
+      source: "C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-fhsann"
+      binary: "C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-fhsann"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/repos/repo_distro/aburn/usr/modules/src/cmake;C:/repos/repo_distro/aburn/usr/include/cmake"
+    buildResult:
+      variable: "AFTR_CONFIG_USE_BOOST"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-fhsann'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_37657.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.2+c078802d4 for .NET Framework
+        Build started 7/19/2024 7:19:02 PM.
+        
+        Project "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-fhsann\\cmTC_37657.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_37657.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-fhsann\\Debug\\".
+          Creating directory "cmTC_37657.dir\\Debug\\cmTC_37657.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_37657.dir\\Debug\\cmTC_37657.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_37657.dir\\Debug\\cmTC_37657.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.41.34021\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_37657.dir\\Debug\\\\" /Fd"cmTC_37657.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-fhsann\\CheckSymbolExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34021 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_37657.dir\\Debug\\\\" /Fd"cmTC_37657.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-fhsann\\CheckSymbolExists.c"
+          CheckSymbolExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.41.34021\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-fhsann\\Debug\\cmTC_37657.exe" /INCREMENTAL /ILK:"cmTC_37657.dir\\Debug\\cmTC_37657.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-fhsann/Debug/cmTC_37657.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-fhsann/Debug/cmTC_37657.lib" /MACHINE:X64  /machine:x64 cmTC_37657.dir\\Debug\\CheckSymbolExists.obj
+          cmTC_37657.vcxproj -> C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-fhsann\\Debug\\cmTC_37657.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_37657.dir\\Debug\\cmTC_37657.tlog\\unsuccessfulbuild".
+          Touching "cmTC_37657.dir\\Debug\\cmTC_37657.tlog\\cmTC_37657.lastbuildstate".
+        Done Building Project "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-fhsann\\cmTC_37657.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.45
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/repos/repo_distro/libs/boost_1_80_0/lib64-msvc-14.3/cmake/boost_thread-1.80.0/boost_thread-config.cmake:118 (find_dependency)"
+      - "C:/repos/repo_distro/libs/boost_1_80_0/lib64-msvc-14.3/cmake/Boost-1.80.0/BoostConfig.cmake:141 (find_package)"
+      - "C:/repos/repo_distro/libs/boost_1_80_0/lib64-msvc-14.3/cmake/Boost-1.80.0/BoostConfig.cmake:262 (boost_find_component)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/FindBoost.cmake:610 (find_package)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftr_FindDependencies.cmake:33 (FIND_PACKAGE)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftrModuleCommonProjectIncludesAndLibs.cmake:49 (aftr_find_build_dependencies)"
+      - "CMakeLists.txt:27 (include)"
+    directories:
+      source: "C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-cqxj3n"
+      binary: "C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-cqxj3n"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/repos/repo_distro/aburn/usr/modules/src/cmake;C:/repos/repo_distro/aburn/usr/include/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-cqxj3n'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8f813.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.2+c078802d4 for .NET Framework
+        Build started 7/19/2024 7:19:03 PM.
+        
+        Project "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-cqxj3n\\cmTC_8f813.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_8f813.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-cqxj3n\\Debug\\".
+          Creating directory "cmTC_8f813.dir\\Debug\\cmTC_8f813.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_8f813.dir\\Debug\\cmTC_8f813.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_8f813.dir\\Debug\\cmTC_8f813.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.41.34021\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8f813.dir\\Debug\\\\" /Fd"cmTC_8f813.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-cqxj3n\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34021 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8f813.dir\\Debug\\\\" /Fd"cmTC_8f813.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-cqxj3n\\src.c"
+          src.c
+        C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-cqxj3n\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-cqxj3n\\cmTC_8f813.vcxproj]
+        Done Building Project "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-cqxj3n\\cmTC_8f813.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-cqxj3n\\cmTC_8f813.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-cqxj3n\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-cqxj3n\\cmTC_8f813.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.26
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/repos/repo_distro/libs/boost_1_80_0/lib64-msvc-14.3/cmake/boost_thread-1.80.0/boost_thread-config.cmake:118 (find_dependency)"
+      - "C:/repos/repo_distro/libs/boost_1_80_0/lib64-msvc-14.3/cmake/Boost-1.80.0/BoostConfig.cmake:141 (find_package)"
+      - "C:/repos/repo_distro/libs/boost_1_80_0/lib64-msvc-14.3/cmake/Boost-1.80.0/BoostConfig.cmake:262 (boost_find_component)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/FindBoost.cmake:610 (find_package)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftr_FindDependencies.cmake:33 (FIND_PACKAGE)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftrModuleCommonProjectIncludesAndLibs.cmake:49 (aftr_find_build_dependencies)"
+      - "CMakeLists.txt:27 (include)"
+    directories:
+      source: "C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-4t2ryf"
+      binary: "C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-4t2ryf"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/repos/repo_distro/aburn/usr/modules/src/cmake;C:/repos/repo_distro/aburn/usr/include/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-4t2ryf'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a4db3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.2+c078802d4 for .NET Framework
+        Build started 7/19/2024 7:19:03 PM.
+        
+        Project "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-4t2ryf\\cmTC_a4db3.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_a4db3.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-4t2ryf\\Debug\\".
+          Creating directory "cmTC_a4db3.dir\\Debug\\cmTC_a4db3.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_a4db3.dir\\Debug\\cmTC_a4db3.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_a4db3.dir\\Debug\\cmTC_a4db3.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.41.34021\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a4db3.dir\\Debug\\\\" /Fd"cmTC_a4db3.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-4t2ryf\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34021 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a4db3.dir\\Debug\\\\" /Fd"cmTC_a4db3.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-4t2ryf\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.41.34021\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-4t2ryf\\Debug\\cmTC_a4db3.exe" /INCREMENTAL /ILK:"cmTC_a4db3.dir\\Debug\\cmTC_a4db3.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-4t2ryf/Debug/cmTC_a4db3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-4t2ryf/Debug/cmTC_a4db3.lib" /MACHINE:X64  /machine:x64 cmTC_a4db3.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-4t2ryf\\cmTC_a4db3.vcxproj]
+        Done Building Project "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-4t2ryf\\cmTC_a4db3.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-4t2ryf\\cmTC_a4db3.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-4t2ryf\\cmTC_a4db3.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.37
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/repos/repo_distro/libs/boost_1_80_0/lib64-msvc-14.3/cmake/boost_thread-1.80.0/boost_thread-config.cmake:118 (find_dependency)"
+      - "C:/repos/repo_distro/libs/boost_1_80_0/lib64-msvc-14.3/cmake/Boost-1.80.0/BoostConfig.cmake:141 (find_package)"
+      - "C:/repos/repo_distro/libs/boost_1_80_0/lib64-msvc-14.3/cmake/Boost-1.80.0/BoostConfig.cmake:262 (boost_find_component)"
+      - "C:/Program Files/CMake/share/cmake-3.30/Modules/FindBoost.cmake:610 (find_package)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftr_FindDependencies.cmake:33 (FIND_PACKAGE)"
+      - "C:/repos/repo_distro/aburn/usr/include/cmake/aftrModuleCommonProjectIncludesAndLibs.cmake:49 (aftr_find_build_dependencies)"
+      - "CMakeLists.txt:27 (include)"
+    directories:
+      source: "C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-5zodkz"
+      binary: "C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-5zodkz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/repos/repo_distro/aburn/usr/modules/src/cmake;C:/repos/repo_distro/aburn/usr/include/cmake"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-5zodkz'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Preview/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_45a68.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.2+c078802d4 for .NET Framework
+        Build started 7/19/2024 7:19:04 PM.
+        
+        Project "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-5zodkz\\cmTC_45a68.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_45a68.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-5zodkz\\Debug\\".
+          Creating directory "cmTC_45a68.dir\\Debug\\cmTC_45a68.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_45a68.dir\\Debug\\cmTC_45a68.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_45a68.dir\\Debug\\cmTC_45a68.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.41.34021\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_45a68.dir\\Debug\\\\" /Fd"cmTC_45a68.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-5zodkz\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34021 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_45a68.dir\\Debug\\\\" /Fd"cmTC_45a68.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-5zodkz\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\VC\\Tools\\MSVC\\14.41.34021\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-5zodkz\\Debug\\cmTC_45a68.exe" /INCREMENTAL /ILK:"cmTC_45a68.dir\\Debug\\cmTC_45a68.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-5zodkz/Debug/cmTC_45a68.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/repos/repo_distro/aburn/usr/modules/NewModule/cwin64/CMakeFiles/CMakeScratch/TryCompile-5zodkz/Debug/cmTC_45a68.lib" /MACHINE:X64  /machine:x64 cmTC_45a68.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-5zodkz\\cmTC_45a68.vcxproj]
+        Done Building Project "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-5zodkz\\cmTC_45a68.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-5zodkz\\cmTC_45a68.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\repos\\repo_distro\\aburn\\usr\\modules\\NewModule\\cwin64\\CMakeFiles\\CMakeScratch\\TryCompile-5zodkz\\cmTC_45a68.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.36
+        
+      exitCode: 1
+...
