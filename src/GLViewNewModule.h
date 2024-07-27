@@ -1,9 +1,9 @@
 #pragma once
 
 #include "GLView.h"
-#include <irrKlang.h> // Ensure irrKlang is included
+#include <irrKlang.h> 
 #include <vector>
-#include <chrono> // Include for time tracking
+#include <chrono>
 
 namespace Aftr
 {
@@ -15,8 +15,8 @@ namespace Aftr
     public:
         static GLViewNewModule* New(const std::vector< std::string >& outArgs);
         virtual ~GLViewNewModule();
-        virtual void updateWorld(); ///< Called once per frame
-        virtual void loadMap(); ///< Called once at startup to build this module's scene
+        virtual void updateWorld(); 
+        virtual void loadMap();
         virtual void onResizeWindow(GLsizei width, GLsizei height);
         virtual void onMouseDown(const SDL_MouseButtonEvent& e);
         virtual void onMouseUp(const SDL_MouseButtonEvent& e);
@@ -36,14 +36,14 @@ namespace Aftr
         float yaw;
         bool takeOff;
         bool isCubePlaced = false;
-        int count = 0; // Counter to manage the take-off steps
+        int count = 0;
 
         WO* jet = nullptr;
         WO* shinyRedPlasticCube = nullptr;
         Vector initialPosition;
 
         bool collisionDetected = false;
-        float collisionCooldown = 0.0f; // Cooldown to prevent multiple detections in a short time
+        float collisionCooldown = 0.0f;
 
         struct FlightPathData
         {
@@ -59,7 +59,7 @@ namespace Aftr
         int score = 0;
         std::vector<std::string> objectives;
 
-        bool isDay = true; // Flag to track day or night
+        bool isDay = true; 
         WO* skyBox = nullptr;
 
         float altitude = 0.0f; // Current altitude of the plane
@@ -67,9 +67,9 @@ namespace Aftr
         float totalDistance = 0.0f; // Total distance traveled by the plane
         Vector lastPosition; // Last recorded position of the plane
 
-        std::chrono::high_resolution_clock::time_point lastUpdateTime; // For time tracking
+        std::chrono::high_resolution_clock::time_point lastUpdateTime;
 
-        bool checkCollision(); // Change to return bool
+        bool checkCollision(); 
         void handleCollision();
         void resetFlight();
         void startTakeoff();
@@ -79,7 +79,7 @@ namespace Aftr
         void updateFlightStats(); // Method to update flight statistics
         float getDeltaTime(); // Method to get delta time
 
-        Vector calculateRotationAngles(const Vector& direction); // Helper function to calculate rotation angles
+        Vector calculateRotationAngles(const Vector& direction);
         void updateCamera(); // Update the camera position and orientation
     };
 }
