@@ -64,7 +64,7 @@ void GLViewNewModule::onCreate()
     if (this->pe != NULL)
     {
         this->pe->setGravityNormalizedVector(Vector(0, 0, -1.0f));
-        this->pe->setGravityScalar(0.1f); // Reduce gravity effect
+        this->pe->setGravityScalar(0.1f);
     }
     this->setActorChaseType(STANDARDEZNAV);
     lastPosition = initialPosition;
